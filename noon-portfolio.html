@@ -919,8 +919,9 @@ footer span{color:var(--accent);text-shadow:0 0 8px rgba(0,255,157,0.3)}
         <div class="bc-title">Frontend</div>
         <div class="bc-sub">Building responsive, interactive UIs.</div>
         <div class="skill-pills">
-          <span class="pill hl">React.js</span><span class="pill hl">Next.js</span>
-          <span class="pill">TypeScript</span><span class="pill hl">Tailwind</span>
+          <span class="pill hl">React</span><span class="pill hl">Next.js</span>
+          <span class="pill hl">Tailwind CSS</span><span class="pill">TypeScript</span>
+          <span class="pill">HTML/CSS</span>
         </div>
       </div>
  
@@ -929,28 +930,27 @@ footer span{color:var(--accent);text-shadow:0 0 8px rgba(0,255,157,0.3)}
         <div class="bc-title">Backend</div>
         <div class="bc-sub">Designing robust, scalable RESTful APIs.</div>
         <div class="skill-pills">
-          <span class="pill hl">Java</span><span class="pill hl">Spring Boot</span>
-          <span class="pill">Node.js</span><span class="pill">Python</span>
+          <span class="pill hl">Next.js (API Routes)</span><span class="pill hl">TypeScript</span>
         </div>
       </div>
  
       <div class="bento-card span-1" data-tilt data-tilt-max="5" data-tilt-glare="true" data-tilt-max-glare="0.1">
         <div class="bc-label">03</div>
-        <div class="bc-title">Database</div>
-        <div class="bc-sub">Optimizing data retrieval and schemas.</div>
+        <div class="bc-title">Database & Storage</div>
+        <div class="bc-sub">Managing and storing application data securely.</div>
         <div class="skill-pills">
-          <span class="pill hl">MySQL</span><span class="pill hl">PostgreSQL</span>
-          <span class="pill">MongoDB</span><span class="pill">Redis</span>
+          <span class="pill hl">PostgreSQL</span><span class="pill hl">MySQL</span>
+          <span class="pill">Cloudinary</span>
         </div>
       </div>
  
       <div class="bento-card span-1" data-tilt data-tilt-max="5" data-tilt-glare="true" data-tilt-max-glare="0.1">
         <div class="bc-label">04</div>
-        <div class="bc-title">AI & Cloud</div>
-        <div class="bc-sub">Integrating intelligent cloud solutions.</div>
+        <div class="bc-title">Design & Planning</div>
+        <div class="bc-sub">Prototyping and wireframing user experiences.</div>
         <div class="skill-pills">
-          <span class="pill hl">OpenAI API</span><span class="pill">DeepFace</span>
-          <span class="pill hl">AWS S3</span><span class="pill">Docker</span>
+          <span class="pill hl">Figma</span><span class="pill hl">Canva</span>
+          <span class="pill">Draw.io</span>
         </div>
       </div>
 
@@ -985,12 +985,11 @@ footer span{color:var(--accent);text-shadow:0 0 8px rgba(0,255,157,0.3)}
  
       <div class="bento-card span-2" data-tilt data-tilt-max="5" data-tilt-glare="true" data-tilt-max-glare="0.1">
         <div class="bc-label">08</div>
-        <div class="bc-title">DevOps & Tools</div>
-        <div class="bc-sub">Streamlining workflows and deployment.</div>
+        <div class="bc-title">Tools & Platforms</div>
+        <div class="bc-sub">Streamlining development and version control workflows.</div>
         <div class="skill-pills">
-          <span class="pill hl">Git / GitHub</span><span class="pill">CI/CD</span>
-          <span class="pill hl">Docker</span><span class="pill">Postman</span>
-          <span class="pill">Figma</span><span class="pill">VS Code</span>
+          <span class="pill hl">VS Code</span><span class="pill hl">Git & GitHub</span>
+          <span class="pill">Eclipse IDE</span>
         </div>
       </div>
  
@@ -1011,12 +1010,12 @@ footer span{color:var(--accent);text-shadow:0 0 8px rgba(0,255,157,0.3)}
             <div class="holo-chip"></div>
           </div>
           
-          <div class="holo-role">Software Developer Intern</div>
-          <div class="holo-company">[Company Name]</div>
+          <div class="holo-role">AI Agent Builder Intern</div>
+          <div class="holo-company">[BOTNOI Group]</div>
           
           <div class="holo-meta">
-            <span class="holo-tag">📅 [Duration: 2 Months]</span>
-            <span class="holo-tag">📍 Remote / Hybrid</span>
+            <span class="holo-tag">📅 June 2026 - July 2026</span>
+            <span class="holo-tag">📍 Remote</span>
             <span class="holo-tag">⚡ Full-Time</span>
           </div>
           
@@ -1074,7 +1073,7 @@ footer span{color:var(--accent);text-shadow:0 0 8px rgba(0,255,157,0.3)}
       </a>
     </div>
     <div style="margin-top:2rem">
-      <a class="hero-cta" href="#" style="opacity:1;animation:none;display:inline-flex">
+      <a class="hero-cta" href="./assets/Noon_CV.pdf" download="Noon_CV.pdf" style="opacity:1;animation:none;display:inline-flex">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         Download CV
       </a>
@@ -1220,7 +1219,7 @@ document.addEventListener('mousemove',e=>{
 // ---- TYPEWRITER ----
 (function(){
   const el=document.getElementById('typewriter');
-  const words=['Full-Stack Developer','Java Spring Boot Specialist','AI Integrator','Problem Solver'];
+  const words=['Web Developer','Software Engineering','AI Agent Builder','Prompt Engineering'];
   let wi=0,ci=0,deleting=false;
   function tick(){
     const w=words[wi];
@@ -1389,14 +1388,44 @@ revealElements.forEach(r => revObs.observe(r));
 })();
  
 // ---- GITHUB GRAPH ----
-(function(){
-  const g=document.getElementById('ghGraph');
-  const levels=['','l1','l2','l3','l4'];
-  for(let i=0;i<182;i++){
-    const d=document.createElement('div');
-    const r=Math.random();
-    d.className='gh-cell '+(r>0.6?levels[Math.floor(Math.random()*4)+1]:'');
-    g.appendChild(d);
+(async function(){
+  const g = document.getElementById('ghGraph');
+  const username = 'WoranutKhwanpongdee'; // 📝 TODO: เปลี่ยนเป็น GitHub Username จริงของคุณ
+  
+  try {
+    // 1. เรียกข้อมูลจาก Community Proxy API
+    const res = await fetch(`https://github-contributions-api.deno.dev/${username}.json`);
+    if (!res.ok) throw new Error('API fetch failed');
+    const data = await res.json();
+    
+    // 2. แปลงข้อมูลและกรองเอาแค่ 182 วันล่าสุด (26 weeks) ให้พอดีกับช่องที่คุณเตรียมไว้
+    let days = data.contributions.flat().slice(-182);
+    g.innerHTML = ''; 
+    
+    // 3. วาด DOM ใหม่ด้วยข้อมูลการ Commit จริงๆ
+    days.forEach(day => {
+      const d = document.createElement('div');
+      let levelClass = '';
+      // เทียบสเกลสีตามจำนวนการ Commit
+      if (day.contributionCount > 0 && day.contributionCount <= 3) levelClass = 'l1';
+      else if (day.contributionCount > 3 && day.contributionCount <= 6) levelClass = 'l2';
+      else if (day.contributionCount > 6 && day.contributionCount <= 10) levelClass = 'l3';
+      else if (day.contributionCount > 10) levelClass = 'l4';
+      
+      d.className = `gh-cell ${levelClass}`;
+      d.title = `${day.contributionCount} contributions on ${day.date}`; // เพิ่ม Tooltip ตอนเอาเมาส์ชี้
+      g.appendChild(d);
+    });
+  } catch (err) {
+    console.warn('GitHub API failed, using fallback:', err);
+    // Fallback: ถ้าเน็ตหลุดหรือ API พัง ให้สุ่มเหมือนเดิมเว็บจะได้ไม่โล่ง
+    const levels=['','l1','l2','l3','l4'];
+    for(let i=0;i<182;i++){
+      const d=document.createElement('div');
+      const r=Math.random();
+      d.className='gh-cell '+(r>0.6?levels[Math.floor(Math.random()*4)+1]:'');
+      g.appendChild(d);
+    }
   }
 })();
  
