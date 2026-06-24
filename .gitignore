@@ -1,0 +1,12 @@
+# Operating System
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archive
+archive/

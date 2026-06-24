@@ -1,6 +1,6 @@
 import sys
 
-FILE_PATH = r'd:\Personal\Portfolio1\noon-portfolio.html'
+FILE_PATH = r'd:\Personal\Portfolio1\src\index.html'
 
 with open(FILE_PATH, 'r', encoding='utf-8') as f:
     content = f.read()
